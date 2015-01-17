@@ -62,6 +62,13 @@ To stop a session, just type `bye`, `goodbye`, `done`, `exit`, or `quit`.
 
 This section is way TODO, yo.
 
+## Testing
+
+    git clone https://github.com/garbados/eliza-js.git
+    cd eliza-js
+    npm install
+    npm test
+
 ## License
 
 This project is based on and adapted from code found [here](http://www.masswerk.at/elizabot/). This is its license (or something like it):
