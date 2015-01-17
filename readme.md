@@ -1,16 +1,16 @@
-# Eliza
+# Lizbeth
 
-Easily use the [Robotic Rogerian Therapist, ELIZA](http://en.wikipedia.org/wiki/ELIZA) as either a CLI or in other JS projects.
+A CLI and `require`-able library for using the [Robotic Rogerian Therapist, ELIZA](http://en.wikipedia.org/wiki/ELIZA).
 
 ## As a CLI
 
 To install, use [npm](https://npmjs.com) and, in your terminal, type:
 
-    npm install -g eliza
+    npm install -g lizbeth
 
 Then, you're ready to administer robotic therapy:
 
-	eliza
+	lizbeth
 	> Eliza: How do you do.  Please tell me your problem.
 	> You: _
 
@@ -20,7 +20,7 @@ To stop a session, just type `bye`, `goodbye`, `done`, `exit`, or `quit`.
 
 ## As JS
 
-	var Eliza = require('eliza');
+	var Eliza = require('lizbeth');
 	var bot = new Eliza();
 
     // begin reading using input from stdin 
@@ -68,6 +68,10 @@ This section is way TODO, yo.
     cd eliza-js
     npm install
     npm test
+
+## Why 'Lizbeth'?
+
+Because it was the first formulation of "eliza" that wasn't already taken in NPM.
 
 ## License
 
