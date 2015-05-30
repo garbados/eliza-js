@@ -1,6 +1,6 @@
 {
   "name": "lizbeth",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "A CLI for using the robotic Rogerian therapist, Eliza",
   "main": "index.js",
   "scripts": {
