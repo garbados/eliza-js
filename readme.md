@@ -1,6 +1,6 @@
 # Lizbeth
 
-A CLI and `require`-able library for using the [Robotic Rogerian Therapist, ELIZA](http://en.wikipedia.org/wiki/ELIZA).
+A CLI for using the [Robotic Rogerian Therapist, ELIZA](http://en.wikipedia.org/wiki/ELIZA).
 
 ## As a CLI
 
@@ -17,57 +17,6 @@ Then, you're ready to administer robotic therapy:
 You type directly into your terminal to speak with Eliza. Hit enter to tell her what's on your mind.
 
 To stop a session, just type `bye`, `goodbye`, `done`, `exit`, or `quit`.
-
-## As JS
-
-	var Eliza = require('lizbeth');
-	var bot = new Eliza();
-
-    // begin reading using input from stdin 
-    // and piping replies to stdout
-	var session = bot.session();
-
-    // event occurs when user says something
-	session.on('user', function (msg) {
-	  // what the user said, and other metadata
-	});
-
-    // event occurs when eliza replies
-    session.on('eliza', function (msg) {
-      // what eliza said, and other metadata
-    });
-
-    // event occurs when the session ends
-    session.on('quit', function () { ... });
-
-    // print a list of every message so far sent and received
-    // in order, including associated metadata
-    console.log(session.messages);
-
-    // halts waiting on stdin for a reply
-    // and quits the session without user input
-    session.quit();
-
-### Reference
-
-* Eliza
-* Eliza.session
-* Session
-* Session.on('user', function (msg) { ... })
-* Session.on('eliza', function (msg) { ... })
-* Session.on('quit', function () { ... })
-* Session.quit
-* Session.messages
-* Message
-
-This section is way TODO, yo.
-
-## Testing
-
-    git clone https://github.com/garbados/eliza-js.git
-    cd eliza-js
-    npm install
-    npm test
 
 ## Why 'Lizbeth'?
 
