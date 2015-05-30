@@ -71,7 +71,7 @@ This section is way TODO, yo.
 
 ## Why 'Lizbeth'?
 
-Because it was the first formulation of "eliza" that wasn't already taken in NPM.
+Because it was the first formulation of "eliza" that wasn't already taken in NPM :P
 
 ## License
 

@@ -4,6 +4,7 @@
   "description": "A CLI for using the robotic Rogerian therapist, Eliza",
   "main": "index.js",
   "scripts": {
+    "start": "./bin/index.js",
     "test": "jshint bin lib test && mocha -R spec --recursive",
     "cov": "jscoverage lib cov-lib && COVERAGE=true mocha -R html-cov --recursive > coverage.html",
     "coveralls": "jscoverage lib cov-lib && COVERAGE=true mocha -R mocha-lcov-reporter --recursive | coveralls"
@@ -29,7 +30,8 @@
     "async": "^0.9.0",
     "commander": "^2.6.0",
     "irc": "^0.3.9",
-    "prompt": "^0.2.14"
+    "prompt": "^0.2.14",
+    "yargs": "^3.10.0"
   },
   "devDependencies": {
     "coveralls": "^2.11.2",
